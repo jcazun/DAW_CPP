@@ -1,0 +1,14 @@
+# ===== JUCE / Xcode =====
+Builds/
+**/Builds/
+build/
+**/build/
+
+# ===== macOS =====
+.DS_Store
+
+# ===== Xcode =====
+*.xcworkspace
+*.xcuserdata/
+DerivedData/
+
