@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="X8TSDY" name="SimpleEQ" projectType="audioplug" useAppConfig="0"
+<JUCERPROJECT id="zOeRLI" name="SimpleEQNew" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
-  <MAINGROUP id="XBIQ0L" name="SimpleEQ">
-    <GROUP id="{E28CF512-9BF5-AEA7-B89B-D65B1B7D227B}" name="Source">
-      <FILE id="AfCpXL" name="PluginProcessor.cpp" compile="1" resource="0"
+  <MAINGROUP id="M8sbY2" name="SimpleEQNew">
+    <GROUP id="{0791F343-6129-9581-09C4-673AD9FA6CA8}" name="Source">
+      <FILE id="zHow41" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
-      <FILE id="WGWSZC" name="PluginProcessor.h" compile="0" resource="0"
+      <FILE id="wh0wqf" name="PluginProcessor.h" compile="0" resource="0"
             file="Source/PluginProcessor.h"/>
-      <FILE id="OfxtPS" name="PluginEditor.cpp" compile="1" resource="0"
+      <FILE id="x4vDh7" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
-      <FILE id="mfkTi8" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="Dg91Bp" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>
@@ -34,8 +34,8 @@
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="Builds/MacOSX">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" targetName="SimpleEQ"/>
-        <CONFIGURATION isDebug="0" name="Release" targetName="SimpleEQ"/>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="SimpleEQNew"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="SimpleEQNew"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_audio_basics" path="../../../../../git/JUCE/modules"/>
